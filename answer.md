@@ -1,54 +1,32 @@
 # 第1次隨堂題目-隨堂-QZ1
 >
->學號：112111111  (學號和姓名都要寫)
+>學號：112111111  
 ><br />
->姓名林峻毅
+>姓名:林峻毅
 >
 
-本份文件包含以下主題：(至少需下面兩項，若是有多者可以自行新增)
-- [x] 說明內容
 
 ## 說明程式與內容
 
-開始寫說明，該說明需說明想法，
-並於之後再對上述想法的每一部分將程式進一步進行展現，
-若需引用程式區則使用下面方法，
-若為.cs檔內程式除了於敘述中需註明檔案名稱外，
-還需使用語法` ```語言種類 程式碼 ``` `，其中語言種類若是要用python則使用py，java則使用java，C/C++則使用cpp，
-下段程式碼為語言種類選擇csharp使用後結果：
+1. 使用 GitHub 建立 repository。
+2. 使用 git clone 將專案下載到本地端。
+3. 新增 add_course.md 檔案。
+4. 使用 git add 將檔案加入追蹤。
+5. 使用 git commit 提交版本。
+6. 使用 git push 上傳到 GitHub。
+7. 建立 add_plan.md 並建立新的 branch。
+8. 使用 git merge 合併 branch。
 
-```csharp
-public void mt_getResult(){
-    ...
-}
-```
-
-若要於內文中標示部分網頁檔，則使用以下標籤` ```html 程式碼 ``` `，
-下段程式碼則為使用後結果：
-
-```html
-<%@ Page Language="C#" AutoEventWireup="true" ...>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" ...>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
-```
-更多markdown方法可參閱[https://ithelp.ithome.com.tw/articles/10203758](https://ithelp.ithome.com.tw/articles/10203758)
-
-請在撰寫"說明程式與內容"該塊內容，請把原該塊內上述敘述刪除，該塊上述內容只是用來指引該怎麼撰寫內容。
-
-1. 
 
 Ans: 
+1. 本次作業使用的 Git 指令
+本次作業主要使用 git clone、git add、git commit、git push、git branch、git checkout 以及 git merge 等指令來管理版本與分支。
 
+ 2. branch 的用途
+Branch 可以讓開發者在不同的分支上進行開發，不會影響主要程式。當功能完成後再將分支合併回 main。
+
+ 3. merge conflict 是什麼
+當兩個 branch 同時修改同一個檔案的同一部分內容時，就可能發生 merge conflict，需要手動選擇保留的內容。
+
+ 4. 本次作業學到的內容
+透過本次作業，我學習到如何使用 Git 進行版本控制、建立 branch、合併 branch，以及處理 merge conflict。
